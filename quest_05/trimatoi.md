@@ -1,4 +1,4 @@
-# Quest 5. TrimAtoi
+# Quest 5.16 TrimAtoi
 **Автор разбора:** aigsadykova
 
 ## Название файла Go
