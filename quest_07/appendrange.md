@@ -8,7 +8,7 @@
 
 | **Instruction** | **Перевод** |
 |------------------|-------------|
-| *Write a function that takes an `int` **min** and an `int` **max** as parameters. The function should return a slice of `ints` with all the values between the **min** and **max**. Min is included, and max is excluded. If min is greater than or equal to max, a `nil` slice is returned. `make` is not allowed for this exercise.* | *Напишите функцию, принимающую в качестве параметров `int` **min** и `int` **max**. Функция должна возвращать срез `int` со всеми значениями между **min** и **max**. Min включается, а max исключается. Если min больше или равен max, возвращается срез `nil`. Использование `make` в этом упражнении не допускается.* |
+| *Write a function that takes an `int` **min** and an `int` **max** as parameters. The function should return a slice of `ints` with all the values between the **min** and **max**. Min is included, and max is excluded. If min is greater than or equal to max, a `nil` slice is returned. `make` is not allowed for this exercise.* | *Напишите функцию, которая принимает два целых числа `min` и `max` в качестве параметров. Функция должна вернуть срез целых чисел, содержащий все значения от `min` включительно до `max` исключительно. Если `min` больше или равен `max`, функция должна вернуть пустой срез (`nil`). Использование `make` запрещено.* |
 
 ---
 
