@@ -1,4 +1,4 @@
-# Quest X. teacher.sh
+# Quest 1. teacher.sh
 
 ## Название файла Go
 `teacher.sh`
