@@ -76,10 +76,6 @@ func ListPushBack(l *List, data interface{}) {
 | **Операция O(1)** | Означает, что операция выполняется за постоянное время, независимо от длины списка. |
 | **Пакет (`package ...`)** | Определяет пакет, к которому принадлежит код. |
 
-### Полезные ссылки для изучения
-- RU [Хабр: Что такое связный список и как он работает](https://habr.com/ru/articles/441574/)  
-- EN [GeeksforGeeks: Linked List Data Structure Explained](https://www.geeksforgeeks.org/data-structures/linked-list/)
-
 ---
 
 ## Логика и пошаговый разбор кода
@@ -92,7 +88,6 @@ func ListPushBack(l *List, data interface{}) {
 func ListPushBack(l *List, data interface{}) {
 ```
 Эта строка объявляет функцию  **ListPushBack**, которая принимает два параметра:
-
 - `l` — указатель на структуру `List (*List)`, представляющую односвязный список;
 - `data` — значение типа `interface{}`, которое нужно поместить в новый узел списка.
 Функция ничего не возвращает — она модифицирует переданный список по ссылке.

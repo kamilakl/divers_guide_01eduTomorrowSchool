@@ -96,8 +96,6 @@ func ListFind(l *List, ref interface{}, comp func(a, b interface{}) bool) *inter
 func ListFind(l *List, ref interface{}, comp func(a, b interface{}) bool) *interface{} {
 ```
 Эта строка объявляет функцию **ListFind**, которая принимает:
-
-Функция принимает:
 - `l` — список
 - `ref` — значение, которое ищем
 - `comp` — функция сравнения (например `CompStr`)

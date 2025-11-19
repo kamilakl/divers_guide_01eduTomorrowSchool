@@ -100,8 +100,6 @@ func ListForEachIf(l *List, f func(*NodeL), cond func(*NodeL) bool) {
 func ListForEachIf(l *List, f func(*NodeL), cond func(*NodeL) bool) {
 ```
 Эта строка объявляет функцию **ListForEachIf**, которая принимает:
-
-Функция принимает:
 - `l` — список
 - `f` — действие, которое выполняем над подходящими узлами
 - `cond` — проверка, применяется ли действие к узлу
