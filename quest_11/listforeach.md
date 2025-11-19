@@ -141,11 +141,15 @@ for current != nil {
 
 #### Исходные данные:
 
-`"1" → "2" → "3" → "5" → nil`
+```go
+"1" → "2" → "3" → "5" → nil
+```
 
 #### Вызов:
 
-`ListForEach(link, Add2_node)`
+```go
+ListForEach(link, Add2_node)
+```
 
 #### Итерация 1
 
