@@ -102,8 +102,7 @@ func fail(a, b int) {
 
 ### Полезные ссылки  
 - Metanit — указатели: https://metanit.com/go/tutorial/3.1.php
-- Go by Example — pointers: https://gobyexample.com/pointers  
-- YouTube: "Pointers in Go explained simply" (Dimbus, Golang Café, Гошаков)
+- Go by Example — pointers: https://gobyexample.com/pointers
 
 ---
 
