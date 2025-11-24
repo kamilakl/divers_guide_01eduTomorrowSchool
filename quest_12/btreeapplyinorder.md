@@ -62,29 +62,22 @@ $
 ```go
 package piscine
 
-func BTreeInsertData(root *TreeNode, data string) *TreeNode {
+type TreeNode struct {
+	Left, Right, Parent *TreeNode
+	Data                string
+}
+
+func BTreeApplyInorder(root *TreeNode, f func(...interface{}) (int, error)) {
 	if root == nil {
-		return &TreeNode{Data: data}
+		return
 	}
 
-	current := root
-	for {
-		if data < current.Data {
-			if current.Left == nil {
-				current.Left = &TreeNode{Data: data, Parent: current}
-				break
-			}
-			current = current.Left
-		} else {
-			if current.Right == nil {
-				current.Right = &TreeNode{Data: data, Parent: current}
-				break
-			}
-			current = current.Right
-		}
-	}
+	BTreeApplyInorder(root.Left, f)
 
-	return root
+	f(root.Data)
+
+	BTreeApplyInorder(root.Right, f)
+}
 ```
 
 ---
